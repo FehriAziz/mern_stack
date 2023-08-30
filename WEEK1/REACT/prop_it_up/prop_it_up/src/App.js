@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
- const personCards = [{first_name:"jane",last_name:"Doe",age:45,hair_color:"black" },
+const personCards = [{first_name:"jane",last_name:"Doe",age:45,hair_color:"black" },
   {first_name:"John",last_name:"Smith",age:88 , hair_color:"Brown"},
 {first_name:"Millard",last_name:"Fillmore",age:50,hair_color:"Brown"},
 {first_name:"Maria",last_name:"Smith",age:62,hair_color:"brown"}]
@@ -15,7 +14,7 @@ function App() {
           <p>hair color :{p.hair_color}</p>
         </div> 
       ))}
-      <h1></h1>
+      
     
     </div>
   );
