@@ -1,8 +1,8 @@
-import { useState } from 'react'
+
 
 import './App.css'
 
-import Form from './components/Validation'
+import Form from './components/Form'
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
     <div>
       <h1> hello </h1>
       <Form/>
+      
     </div>
     </>
   )
