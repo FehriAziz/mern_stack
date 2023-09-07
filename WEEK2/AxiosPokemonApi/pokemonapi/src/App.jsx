@@ -5,7 +5,7 @@ import axios from 'axios'
 function App() {
   const [pokemonAxios, setPokemonAxios] = useState([])
   const axiosAPI = () => {
-    axios.get("https://pokeapi.co/api/v2/pokemon?limit=807&offset=0")
+    fetch.get("https://pokeapi.co/api/v2/pokemon?limit=807&offset=0")
       .then(response => {
         setPokemonAxios(response.data.results)
         console.log(response.data.results)
